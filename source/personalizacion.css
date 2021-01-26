@@ -1,0 +1,73 @@
+/* Tipografias */
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body .container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+body .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+body .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+body .row .col-md-4 {
+    padding-bottom: 5px;
+}
+
+.container-fluid .header {
+    padding: 60px;
+    text-align: center;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.modal-body .buttonSocial {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+video {
+    width: 100%;
+}
+.video {
+    width: 100%;
+}
+
+
+.container .vertical {
+    padding: 10vh 0vh 0vh 0vh;
+}
+
+.card .planBoxB {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 55px;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+}
+
+.card .planBoxP {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 55px;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    background-color: #9fa4c4;
+    background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+}
