@@ -16,7 +16,7 @@ Layout de la pagina principal de CAMICASE, Plataforma para la Gestion de Tallere
 
 <p align="center">
   <br><br>
-  <strong>BloGo</strong> existe gracias a <a href="https://github.com/rakibtg/SleekDB">rakibtg/SleekDB</a> | <a href="https://github.com/twbs/bootstrap">twbs/bootstrap</a>
+  <strong>CamiCase-WebSite</strong> existe gracias a <a href="https://github.com/twbs/bootstrap">twbs/bootstrap</a>
   <br><br>
     <img src="https://img.shields.io/github/downloads/gusgeek/bloGo/total">  
     <img src="https://img.shields.io/github/v/release/gusgeek/bloGo">  
