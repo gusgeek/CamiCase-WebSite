@@ -10,7 +10,7 @@ Layout de la pagina principal de CAMICASE, Plataforma para la Gestion de Tallere
 </p>
   
 <p align="center">
-  <a href="https://gusgeek.github.io/CamiCase-WebSite/"> Ver Demo </a> | <a href="https://github.com/gusgeek/bloGo/issues/new"> Ofrecer una Idea </a> | <a href="https://github.com/gusgeek/CamiCase-WebSite/releases/latest"> Obtener </a>
+  <a href="https://gusgeek.github.io/CamiCase-WebSite/"> Ver Demo </a> | <a href="https://github.com/gusgeek/CamiCase-WebSite/issues/new"> Ofrecer una Idea </a> | <a href="https://github.com/gusgeek/CamiCase-WebSite/releases/latest"> Obtener </a>
   </strong>
 </p>
 
