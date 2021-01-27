@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/gusgeek/CamiCase-WebSite/b117530de1bd42fbab29491c1a46096992e94e6c/svg.svg" width="200">
 </p>
 
-# Bienvenido
+# 
 <p align="center">
 Layout de la pagina principal de CAMICASE, Plataforma para la Gestion de Talleres
 
