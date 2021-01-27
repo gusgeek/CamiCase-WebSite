@@ -18,10 +18,10 @@ Layout de la pagina principal de CAMICASE, Plataforma para la Gestion de Tallere
   <br><br>
   <strong>CamiCase-WebSite</strong> existe gracias a <a href="https://github.com/twbs/bootstrap">twbs/bootstrap</a>
   <br><br>
-    <img src="https://img.shields.io/github/downloads/gusgeek/bloGo/total">  
-    <img src="https://img.shields.io/github/v/release/gusgeek/bloGo">  
-    <img src="https://img.shields.io/github/release-date/gusgeek/bloGo">  
-    <img src="https://img.shields.io/github/languages/code-size/gusgeek/bloGo">
+    <img src="https://img.shields.io/github/downloads/gusgeek/CamiCase-WebSite/total">  
+    <img src="https://img.shields.io/github/v/release/gusgeek/CamiCase-WebSite">  
+    <img src="https://img.shields.io/github/release-date/gusgeek/CamiCase-WebSite">  
+    <img src="https://img.shields.io/github/languages/code-size/gusgeek/CamiCase-WebSite">
   <br><br>
   <strong>:pencil2: con :heart:</strong>
 </p>
