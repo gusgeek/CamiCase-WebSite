@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -13,9 +13,12 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="description" content="Tenemos planes para todas las empresas, elegi el tuyo">
         <meta name="keywords" content="software, taller, programa, organizacion, planes, cuotas">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="./source/js/bootstrap.bundle.min.js"></script>
 
+       
 
-  </head>
+      </head>
   <body>
     <div class="container-fluid">
         <div class="header text-break">
@@ -52,112 +55,61 @@
         <div class="container">
             <div class="row p-5">
                 <div class="col-md-12">
-                    <center><h5>Organiza tu taller, controla la reparaciones y entende cuanto tiempo tenes de demora en tus reparaciones</h5> <br>Camicase se encarga de colaborar con tu empresa, una de las plataformas de administracion de talleres informaticos mas recomendada de toda la internet</center>
+                  <center>
+                    Asistente de Planeamiento
+                  </center>
                 </div>
                 
             </div>
-            <div class="row p-3">
-          	 <div class="col-md-4">
-              	<div class="card" >
-      					  <div class="card-img-top planBoxB"> Base</div>
-      					  <div class="card-body">
-      					    <h5 class="card-title">1 Mes</h5>
-      					    <p class="card-text">Maximo 5 Sucursales<br> Maximo 10 Usuarios <br> Sin Limites de Ordenes<center><strong>$500</strong> x 1 Mes</center></p>
-      					  </div>
-      					   <div class="card-footer text-center alert-success">
-      					    <a href="contratar.html">Contratar</a>
-      					  </div>
-      					</div>
+            <div class="row p-3" id="assis" style="display: none;" >
+              <div class="col-md-12" id="div1">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                </div>
+
+                <button class="btn btn-sm btn-success" id="btnah">Siguiente</button>
               </div>
-              <div class="col-md-4">
-              	<div class="card" >
-      					  <div class="card-img-top planBoxB"> Base</div>
-      					  <div class="card-body">
-      					    <h5 class="card-title">6 Meses</h5>
-      					    <p class="card-text">Maximo 5 Sucursales<br> Maximo 10 Usuarios <br> Sin Limites de Ordenes <center><strong>$1500</strong> x 6 Mes</center></p>
-      					  </div>
-      					  <div class="card-footer text-center alert-success">
-      					    <a href="contratar.html">Contratar</a>
-      					  </div>
-      					</div>
-              </div>
-              <div class="col-md-4">
-              	<div class="card" >
-      					  <div class="card-img-top planBoxB"> Base</div>
-      					  <div class="card-body">
-      					    <h5 class="card-title">1 Año</h5>
-      					    <p class="card-text">Maximo 5 Sucursales<br> Maximo 10 Usuarios <br> Sin Limites de Ordenes<center><strong>$1900</strong> x 12 Mes</center></p>
-      					  </div>
-      					  <div class="card-footer text-center alert-success">
-      					    <a href="contratar.html">Contratar</a>
-      					  </div>
-      					</div>
-              </div>
-              <div class="col-md-4 p-3">
-              	<div class="card" >
-      					  <div class="card-img-top planBoxP"> Premium</div>
-      					  <div class="card-body">
-      					    <h5 class="card-title">1 Mes</h5>
-      					    <p class="card-text">Maximo 5 Sucursales<br> Maximo 10 Usuarios <br> Sin Limites de Ordenes <br> Almacenamiento de 2Gb para archivos por orden<center><strong>$2800</strong> x 1 Mes</center></p>
-      					  </div>
-      					  <div class="card-footer text-center alert-success">
-      					    <a href="contratar.html">Contratar</a>
-      					  </div>
-      					</div>
-              </div>
-              <div class="col-md-4 p-3">
-              	<div class="card" >
-      					  <div class="card-img-top planBoxP"> Premium</div>
-      					  <div class="card-body">
-      					    <h5 class="card-title">6 Meses</h5>
-      					    <p class="card-text">Maximo 5 Sucursales<br> Maximo 10 Usuarios <br> Sin Limites de Ordenes <br> Almacenamiento de 2Gb para archivos por orden<center><strong>$1800</strong> x 6 Meses</center></p>
-      					  </div>
-      					  <div class="card-footer text-center alert-success">
-      					    <a href="contratar.html">Contratar</a>
-      					  </div>
-      					</div>
-              </div>
-              <div class="col-md-4 p-3">
-              	<div class="card" >
-      					  <div class="card-img-top planBoxP"> Premium</div>
-      					  <div class="card-body">
-      					    <h5 class="card-title">1 Año</h5>
-      					    <p class="card-text">Maximo 5 Sucursales<br> Maximo 10 Usuarios <br> Sin Limites de Ordenes <br> Almacenamiento de 2Gb para archivos por orden<center><strong>$1500</strong> x 12 Meses</center></p>
-      					  </div>
-      					  <div class="card-footer text-center alert-success">
-      					    <a href="contratar.html">Contratar</a>
-      					  </div>
-      					</div>
-              </div>
+              <div style="display: none" class="col-md-12" id="div2"> 
+                <div class="form-group">
+                  <select name="select1" id="select1" class="form-control">
+                    <option value="0">Indique el periodo de cobro</option>
+                    <option value="1">Por mes</option>
+                    <option value="2">Cada 6 Meses</option>
+                    <option value="3">por A;o</option>
+                  </select>
+                </div>
+               
+                <div style="display: none" id="pred1">
+
+                  <div class="form-group" >
+                    <select name="select2" id="select2" class="form-control" >
+                      <option value="0">Indique el Plan</option>
+                      <option value="1">Premium</option>
+                      <option value="2">Basico</option>
+                    </select>
+                  </div>
+
+                  <button id="btn2" class="btn btn-sm btn-success disabled">Continuar</button>
+
+                </div>
+               </div>
             </div>
-              <div class="col-md-12 p-5"> </div>
+
+            <div class="row p-3" style="display: none;" id='dedv'>
+              
+            </div>
+           
           
         </div>
     </div>
-<!-- Seccion de Modal -->
 
-    <div class="modal fade" id="social" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Encontranos en Internet</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <center>  
-              <button style="color: #3b5998;" class="buttonSocial"><i class="fa fa-facebook-official" aria-hidden="true"></i></button>
-              <button style="color: #00acee;" class="buttonSocial"><i class="fa fa-twitter" aria-hidden="true"></i></button>
-              <button style="color: #3f729b;" class="buttonSocial"><i class="fa fa-instagram" aria-hidden="true"></i></button>
-            </center>
-          </div>
-        </div>
-      </div>
-    </div>
+    <script src="js.js">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="./source/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  </body>
+
+    </script>
+   </body>
 </html>
+
