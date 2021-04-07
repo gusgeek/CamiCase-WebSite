@@ -51,8 +51,10 @@ $('document').ready(function(){
       }
 
 
-      $('#assis').hide();
-      $('#dedv').fadeIn();
+      $('#assis').hide( ()=>{
+         $('#dedv').fadeIn();
+      });
+     
 
         $('#dedv').html(
 
