@@ -1,3 +1,4 @@
+
 $('document').ready(function(){
 
     let v1 = localStorage.getItem('nombre');
@@ -51,7 +52,7 @@ $('document').ready(function(){
 
 
       $('#assis').hide();
-      $('#dedv').show();
+      $('#dedv').fadeIn();
 
         $('#dedv').html(
 
